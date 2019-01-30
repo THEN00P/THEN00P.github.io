@@ -1,0 +1,17 @@
+html, canvas, body {
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+canvas {
+    background-color: black;
+    width: 100%;
+    -o-object-fit: contain;
+        object-fit: contain;
+    -ms-interpolation-mode: nearest-neighbor;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -o-pixelated;
+        image-rendering: pixelated;
+}

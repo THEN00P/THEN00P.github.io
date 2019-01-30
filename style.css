@@ -1,0 +1,490 @@
+.debug{
+	display: none;
+}
+
+/* ---- input ---- */
+
+input[type="text"] {
+  font-size: 180%;
+}
+
+/* ---- button ---- */
+
+.button {
+  transition: background-color .2s;
+  margin-right: -3px;
+  margin-left: -3px;
+  background-color: #E58500;
+  display: inline-block;
+  padding: 1em 5%;
+  border: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #FF9900;
+  color: white;
+}
+
+.button:active,
+.button.is-checked {
+  outline: none;
+  background-color: #FF9900;
+}
+
+.button.is-checked {
+  color: white;
+}
+
+.button:focus{
+  outline: none;
+}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+}
+
+.button-group {
+	background-color: #E58500;
+}
+
+/* ---- grid ---- */
+
+.grid {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+video {
+    background: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.center{
+	text-align: center;
+}
+body{
+	text-align: center;
+	margin: auto;
+	background-color: #F2F2F2;
+}
+.content{
+	display: table-cell;
+	box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.1);
+	border-radius: 4px 4px 4px 4px;
+	background-color: #FFFFFF;
+	margin-top: .5%;
+	margin-bottom: .5%;
+	overflow: hidden;
+	width:49.4%;
+}
+.contact{
+	display: block;
+	box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.1);
+	border-radius: 4px 4px 4px 4px;
+	background-color: #FFFFFF;
+	margin-top: .5%;
+	margin-bottom: .5%;
+	overflow: hidden;
+	width:100%;
+	text-align: left;
+}
+.contentwrapper{
+	overflow: hidden;
+	margin: 1% 2% 1% 2%;
+}
+.content:after{
+	content: '';
+	clear: both;
+}
+.name{
+	display: none;
+}
+.titletile{
+	overflow: hidden;
+	text-align: left;
+	display: inline-block;
+	min-height: 50px;
+	min-width: 100%;
+	background-color: #FF9900;
+}
+.navcenter{
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	width: 80%;
+	min-height: 50px;
+	min-width: 80%;
+}
+.logo{
+	margin-right: 5%;
+    min-width: 313px;
+    min-height: 50px;
+	width: 25%;
+	height:auto;
+}
+.foot{
+	background-color: #363b3e;
+}
+.icon0{
+	max-width: 100%;
+    max-height: 100%;
+	border-radius: 200%;
+	display: block;
+	float: right;
+	margin: 2% 2% 2%;
+}
+ul{
+	padding-left: 0px;
+}
+.version{
+	border-radius: 4px 4px 4px 4px;
+	margin-bottom: 0px;
+	padding: 3px 3px;
+	color: white;
+	background-color: #ff9900;
+	margin-top: 0%;
+	display: inline-block;
+	font-size: 130%;
+}
+.link{
+	cursor: default;
+	border: none;
+	background-color: white;
+	font-family: "Arial", sans-serif;
+	color: #ff9900;
+}
+.link:visited{
+	font-family: "Arial", sans-serif;
+	color: #E58500;
+}
+.link:hover{
+	cursor: pointer;
+	color: #ff9900;
+	text-decoration: none;
+}
+.modal-title {
+	color: white;
+}
+.modal-header {
+	background-color: #ff9900;
+}
+p{
+	font-family: "Arial", sans-serif;
+	color: black;
+}
+.text{
+	overflow: hidden;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	margin-left: 2%;
+	text-align: left;
+	float: left;
+}
+.title{
+	display: inline-block;
+	margin: 0% 0% 0%;
+	margin: 0px, 0px, 0px;
+	font-size: 150%;
+	display: inline-block;
+}
+.info{
+	font-size: 100%;
+	display: block;
+}
+.downloadbutton{
+	margin-bottom: 14px;
+	margin-right: 10px;
+	transition: .3s;
+	border-radius: 4px 4px 4px 4px;
+	color: white;
+	font-family: "Arial", sans-serif;
+	text-decoration: none;
+	padding: 14px 25px;
+	background-color: #FF9900;
+}
+.downloadbutton:visited{
+	text-decoration: none;
+	color: white;
+	font-family: "Arial", sans-serif;
+	text-decoration: none;
+	padding: 14px 25px;
+	background-color: #FF9900;
+}
+.downloadbutton:hover{
+	color: white;
+	text-decoration: none;
+	background-color: #E58500;
+}
+.downloadbutton:focus{
+	color: white;
+	text-decoration: none;
+	background-color: #E58500;
+}
+.btn{
+	transition: 1s;
+	border-radius: 4px 4px 4px 4px;
+	color: white;
+	font-family: "Arial", sans-serif;
+	text-decoration: none;
+	padding: 14px 25px;
+	background-color: #FF9900;
+}
+.btn:hover{
+	color: white;
+	background-color: #E58500;
+}
+.search{
+	height: 5%;
+	font-size: 250%;
+	width: 50%;
+	display: inline-block;
+	border-radius: 4px 4px 4px 4px;
+	color: white;
+	background-color: #848484;
+	border: none;
+	text-align: center;
+	transition: 1s;
+	margin: 1% 0% 1% 0%;
+}
+.search:hover{
+	background-color: #969696;
+	outline: none;
+}
+.search:focus{
+	background-color: #969696;
+	outline: none;
+}
+.searchbox{
+	overflow: hidden;
+	text-align: center;
+	border-radius: 4px 4px 4px 4px;
+	overflow: hidden;
+	box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.1);
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 0.5%;
+	background-color: white;
+	width: 80%;
+}
+::-webkit-input-placeholder {
+	color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	color: white;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	color: white;  
+}
+
+:-ms-input-placeholder {  
+	color: white;  
+}
+.marginplaceholder{
+	height: 2%;
+}
+.ctrlbutton{
+	font-size: 150%;
+	vertical-align: middle;
+	transition: background-color .2s;
+	color: white;
+	text-decoration: none;
+	background-color: #ff9900;
+	padding: 100% 1% 100% 1%;
+}
+.ctrlbutton:hover{
+	color: white;
+	background-color: #E58500;
+	text-decoration: none;
+}
+.ctrlbutton{
+	font-size: 150%;
+	vertical-align: middle;
+	transition: background-color .2s;
+	color: white;
+	text-decoration: none;
+	background-color: #ff9900;
+	padding: 100% 1% 100% 1%;
+}
+.ctrlbutton:focus{
+	color: white;
+	background-color: #E58500;
+	text-decoration: none;
+}
+.activectrlbutton{
+	font-size: 150%;
+	vertical-align: middle;
+	transition: background-color .2s;
+	color: white;
+	text-decoration: none;
+	background-color: #E58500;
+	padding: 100% 1% 100% 1%;
+}
+.activectrlbutton:hover{
+	color: white;
+	background-color: #CC7300;
+	text-decoration: none;
+}
+.activectrlbutton:focus{
+	color: white;
+	background-color: #CC7300;
+	text-decoration: none;
+}
+.mobilenavbtn{
+	display: inline;
+	overflow: hidden;
+}
+.modal-body{
+	text-align:left;
+}
+.retroarch{
+	width: 100%;
+	display: block;
+}
+.subretroarch{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+.retroborder{
+	border-style: solid none none none;
+	border-color: lightgrey;
+	border-width: 1px;
+	transition: .2s;
+	display: block;
+	width:100%;
+	text-align: left;
+	height: 10%;
+}
+.retroborder:hover{
+	background-color: lightgrey;
+}
+.retrobutton.nondirect{
+	display: block;
+}
+.retrobutton{
+	margin: .3% 0% .3% 2%;
+	text-decoration: none;
+	color: black;
+	width:100%;
+	text-align: left;
+	padding-right:auto;
+}
+.retrobutton:focus{
+	outline:none;
+	text-decoration:none;
+	color: black;
+}
+.retrobutton:hover{
+	text-decoration: none;
+	color: black;
+}
+/*Making the direct download invisible so it can be made visible for the vita*/
+.direct{
+	display: none;
+}
+/*Making everything more compatible with mobile devices*/
+@media only screen and (max-device-width: 1080px){
+	.content{
+		display: block;
+		width: 100%;
+	}
+	.logo{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.grid{
+		width: 95%;
+	}
+	.navcenter{
+		width: 100%;
+	}
+	.searchbox{
+		width: 95%;
+	}
+	.mobilenavbtn{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.icon0{
+		display: none;
+	}
+}
+/*Making the download buttons relative to the vitas screen resolution + reversing the stuff from mobile*/
+@media only screen and (max-device-width: 960px) and (min-device-width: 960px) {
+	.search{
+		height: 10%;
+	}
+	.grid{
+		width: 80% !important;
+	}
+	.navcenter{
+		width: 80% !important;
+	}
+	.searchbox{
+		width: 80% !important;
+	}
+    .nondirect{
+        display: none !important;
+    }
+	.direct{
+        display: inline !important;
+    }
+	.mobilenavbtn{
+		margin-left: 0% !important;
+		margin-right: 0% !important;
+		display: inline !important;
+	}
+	.icon0{
+		display: inline !important;
+	}
+	.logo{
+		margin-right: 5% !important;
+		margin-left: initial !important;
+		display: inline !important;
+	}
+	.retrobutton.direct{
+		display: block !important;
+	}
+}
+@media only screen and (max-width: 1630px){
+	.content{
+		display: block;
+		width: 100%;
+	}
+}
+.retroarch{
+	width: 100%;
+	display: block;
+}
+.subretroarch{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+.retroborder{
+	border-style: solid none none none;
+	border-color: lightgrey;
+	border-width: 1px;
+	transition: .2s;
+	display: block;
+	width:100%;
+	text-align: left;
+}
+.retroborder:hover{
+	background-color: lightgrey;
+}

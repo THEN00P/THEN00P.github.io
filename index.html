@@ -1,0 +1,85 @@
+<style>
+	@keyframes fadeOut {
+	  0% {
+		opacity: 0;
+	  }
+	  50% {
+		opacity: 1;
+	  }
+	  100% {
+		opacity: 0;
+	  }
+	}
+	.center{
+		height: 58%;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		text-align: center;
+	}
+	.grad{
+		background: linear-gradient(135deg, #E2B900 0%, #ff9900 100%);
+		display: block;
+		width: 100%;
+		height: 100%;
+		content: '';
+		position: absolute;
+		-webkit-animation: fadeOut 10s linear infinite;
+		-moz-animation: fadeOut 10s linear infinite;
+		-ms-animation: fadeOut 10s linear infinite;
+		-o-animation: fadeOut 10s linear infinite;
+		animation: fadeOut 10s linear infinite;
+	}
+	.grad2nd{
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(135deg, #FF9900 0%, #d132a9 100%);
+	}
+	.icon{
+		margin-left: 7%;
+		margin-right: 7%;
+		max-width: 10%;
+		max-height: auto;
+		width: 10%;
+		height: auto;
+	}
+	.aicon{
+		height: 10%;
+		width: auto;
+	}
+</style>
+<html>
+<div class=grad2nd>
+<div class=grad>
+</div>
+</div>
+<header>
+	<link rel="icon" type="image/png" href="http://i.imgur.com/XQNge0n.png">
+	<title>THEN00P</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</header>
+<body>
+	<div class=center>
+		<div style="font-family:Arial, sans-serif; color: white;"><h1>THEN00PS SOCIAL MEDIA</h1><br><br><br><br><br>
+			<a class=aicon href=https://twitter.com/THEN00P><img data-toggle="tooltip" title="I post updates on videos or other stuff." class=icon src=twitter.png></a>
+			<a class=aicon href=https://www.youtube.com/channel/UCsl3frt-IC5LyXiUhmBCn9A><img data-toggle="tooltip" title="I rarely make videos but i realy like making them." class=icon src=yt.png></a>
+			<a class=aicon href=https://www.instagram.com/th3n00p/><img data-toggle="tooltip" title="I post memes." class=icon src=instagram.png></a>
+			<a class=aicon href=https://soundcloud.com/thenoop><img data-toggle="tooltip" title="I mostly post mashups of songs." class=icon src=soundcloud.png></a>
+			<a class=aicon href="/game/index.html"><img data-toggle="tooltip" title="Some game I made for a competition." class=icon src=game.png></a>
+		</div>
+	</div>
+</body>
+<script>
+$(document).ready(function(){
+$('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+</html>
